@@ -13,14 +13,14 @@ app.use(cors());
 // OAuth2 client setup
 const OAuth2 = google.auth.OAuth2;
 const oauth2Client = new OAuth2(
-  "YOUR_CLIENT_ID", // Replace with your Client ID
-  "YOUR_CLIENT_SECRET", // Replace with your Client Secret
-  "https://developers.google.com/oauthplayground" // Redirect URL
+  "518345421830-jpub607crh57d9eo9mlrmmhkerfcjpjk.apps.googleusercontent.com", 
+  "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", 
+  "https://developers.google.com/oauthplayground" 
 );
 
 // Set the refresh token
 oauth2Client.setCredentials({
-  refresh_token: "YOUR_REFRESH_TOKEN" // Replace with your Refresh Token
+  refresh_token: "1//047Qj0CvE2KuBCgYIARAAGAQSNwF-L9Ir1abIBa0xPhqY77uzTv6TggPlUoTK48C6nKXzPVjLPzECVZnW2dD_fmZRO2qnsiFAHVc" 
 });
 
 // POST route to handle the email subscription
